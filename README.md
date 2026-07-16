@@ -29,3 +29,11 @@ for x in range(2, 6):
  ## The range() function defaults to increment the sequence by 1, however it is possible to specify the increment value by adding a third parameter: range(2, 30, 3): 
 for x in range(2, 30, 3):
         print(x)
+
+ # Else in for loop
+## The else keyword in a for loop specifies a block of code to be executed when the loop is finished:
+for x in range(6):
+    print(x)
+else:
+    print("Finally finished!")
+    
